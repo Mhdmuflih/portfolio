@@ -4,7 +4,7 @@ const sections = ["home", "about", "experience", "projects", "skills", "educatio
 
 const Navbar = () => {
     const [active, setActive] = useState("home");
-    const [open, setOpen] = useState(false);
+    // const [open, setOpen] = useState(false);
 
     const toggleTheme = () => {
         const root = document.documentElement;
@@ -18,7 +18,7 @@ const Navbar = () => {
         document.getElementById(id)?.scrollIntoView({
             behavior: "smooth",
         });
-        setOpen(false);
+        // setOpen(false);
     };
 
 
