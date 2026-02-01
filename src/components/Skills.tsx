@@ -26,7 +26,7 @@ import Skill from "./Skill";
 
 const Skills = () => {
     return (
-        <div id="skills" className="max-w-6xl mx-auto px-6 text-white">
+        <div id="skill" className="max-w-6xl mx-auto px-6 text-white scroll-mt-32">
             <h1 className="text-3xl font-bold text-center mb-12">
                 Skills
             </h1>
